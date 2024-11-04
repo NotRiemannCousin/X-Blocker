@@ -1,0 +1,4 @@
+div + div:has(> div > div > [data-testid="tweet"] [data-testid="icon-verified"]),
+div:has(> div > div > [data-testid="tweet"] [data-testid="icon-verified"]) {
+    display: none;
+}
